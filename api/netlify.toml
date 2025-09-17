@@ -1,0 +1,6 @@
+[build]
+  functions = "netlify/functions"   # Carpeta donde están tus funciones serverless
+  command = "npm run build"   # Opcional, si tenés build steps
+
+[dev]
+  functions = "netlify/functions"   # Para netlify dev

@@ -1,0 +1,296 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "identificacion": "1-1234-5678",
+      "nombre": "Carlos Ramírez",
+      "correo": "carlos.ramirez@example.com",
+      "telefono": "+506 8888-1234",
+      "servicios": [
+        {
+          "idContrato": "C-001",
+          "idServicio": 101,
+          "nombre": "Internet Fibra 200Mbps",
+          "precioMensual": 25000,
+          "estado": "Activo",
+          "fechaInicio": "2024-01-15"
+        },
+        {
+          "idContrato": "C-002",
+          "idServicio": 102,
+          "nombre": "Televisión HD",
+          "precioMensual": 15000,
+          "estado": "Activo",
+          "fechaInicio": "2024-01-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "identificacion": "1-2345-6789",
+      "nombre": "María López",
+      "correo": "maria.lopez@example.com",
+      "telefono": "+506 8999-5678",
+      "servicios": [
+        {
+          "idContrato": "C-003",
+          "idServicio": 103,
+          "nombre": "Internet Fibra 100Mbps",
+          "precioMensual": 18000,
+          "estado": "Activo",
+          "fechaInicio": "2024-03-10"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "identificacion": "1-3456-7890",
+      "nombre": "Jorge Castillo",
+      "correo": "jorge.castillo@example.com",
+      "telefono": "+506 8700-2233",
+      "servicios": [
+        {
+          "idContrato": "C-004",
+          "idServicio": 104,
+          "nombre": "Telefonía IP",
+          "precioMensual": 7000,
+          "estado": "Suspendido",
+          "fechaInicio": "2023-11-05"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "identificacion": "1-4567-8901",
+      "nombre": "Ana Vargas",
+      "correo": "ana.vargas@example.com",
+      "telefono": "+506 8333-4567",
+      "servicios": [
+        {
+          "idContrato": "C-005",
+          "idServicio": 105,
+          "nombre": "Internet Fibra 500Mbps",
+          "precioMensual": 35000,
+          "estado": "Activo",
+          "fechaInicio": "2024-02-20"
+        },
+        {
+          "idContrato": "C-006",
+          "idServicio": 102,
+          "nombre": "Televisión HD",
+          "precioMensual": 15000,
+          "estado": "Activo",
+          "fechaInicio": "2024-02-20"
+        },
+        {
+          "idContrato": "C-007",
+          "idServicio": 106,
+          "nombre": "Streaming Premium",
+          "precioMensual": 8000,
+          "estado": "Activo",
+          "fechaInicio": "2024-05-01"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "identificacion": "1-5678-9012",
+      "nombre": "Roberto Morales",
+      "correo": "roberto.morales@example.com",
+      "telefono": "+506 8444-7890",
+      "servicios": [
+        {
+          "idContrato": "C-008",
+          "idServicio": 107,
+          "nombre": "Internet Empresarial 1Gbps",
+          "precioMensual": 75000,
+          "estado": "Activo",
+          "fechaInicio": "2023-09-15"
+        },
+        {
+          "idContrato": "C-009",
+          "idServicio": 108,
+          "nombre": "Líneas Telefónicas Múltiples",
+          "precioMensual": 25000,
+          "estado": "Activo",
+          "fechaInicio": "2023-09-15"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "identificacion": "1-6789-0123",
+      "nombre": "Sofía Hernández",
+      "correo": "sofia.hernandez@example.com",
+      "telefono": "+506 8555-1234",
+      "servicios": [
+        {
+          "idContrato": "C-010",
+          "idServicio": 103,
+          "nombre": "Internet Fibra 100Mbps",
+          "precioMensual": 18000,
+          "estado": "Activo",
+          "fechaInicio": "2024-04-12"
+        },
+        {
+          "idContrato": "C-011",
+          "idServicio": 109,
+          "nombre": "Seguridad Hogar Digital",
+          "precioMensual": 12000,
+          "estado": "Activo",
+          "fechaInicio": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "identificacion": "1-7890-1234",
+      "nombre": "Luis Jiménez",
+      "correo": "luis.jimenez@example.com",
+      "telefono": "+506 8666-2345",
+      "servicios": [
+        {
+          "idContrato": "C-012",
+          "idServicio": 110,
+          "nombre": "Internet Básico 50Mbps",
+          "precioMensual": 12000,
+          "estado": "Pendiente de Pago",
+          "fechaInicio": "2024-01-08"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "identificacion": "1-8901-2345",
+      "nombre": "Carmen Solís",
+      "correo": "carmen.solis@example.com",
+      "telefono": "+506 8777-3456",
+      "servicios": [
+        {
+          "idContrato": "C-013",
+          "idServicio": 101,
+          "nombre": "Internet Fibra 200Mbps",
+          "precioMensual": 25000,
+          "estado": "Activo",
+          "fechaInicio": "2024-03-25"
+        },
+        {
+          "idContrato": "C-014",
+          "idServicio": 111,
+          "nombre": "Televisión 4K Premium",
+          "precioMensual": 22000,
+          "estado": "Activo",
+          "fechaInicio": "2024-03-25"
+        },
+        {
+          "idContrato": "C-015",
+          "idServicio": 104,
+          "nombre": "Telefonía IP",
+          "precioMensual": 7000,
+          "estado": "Activo",
+          "fechaInicio": "2024-03-25"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "identificación": "1-9012-3456",
+      "nombre": "Diego Méndez",
+      "correo": "diego.mendez@example.com",
+      "telefono": "+506 8888-4567",
+      "servicios": [
+        {
+          "idContrato": "C-016",
+          "idServicio": 112,
+          "nombre": "Internet Gaming 300Mbps",
+          "precioMensual": 32000,
+          "estado": "Activo",
+          "fechaInicio": "2024-07-10"
+        },
+        {
+          "idContrato": "C-017",
+          "idServicio": 113,
+          "nombre": "Cloud Storage 1TB",
+          "precioMensual": 5000,
+          "estado": "Activo",
+          "fechaInicio": "2024-07-10"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "identificacion": "1-0123-4567",
+      "nombre": "Patricia Rojas",
+      "correo": "patricia.rojas@example.com",
+      "telefono": "+506 8999-5678",
+      "servicios": [
+        {
+          "idContrato": "C-018",
+          "idServicio": 105,
+          "nombre": "Internet Fibra 500Mbps",
+          "precioMensual": 35000,
+          "estado": "Cancelado",
+          "fechaInicio": "2023-12-01"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "identificacion": "2-1234-5678",
+      "nombre": "Empresa TecnoSoft S.A.",
+      "correo": "contacto@tecnosoft.co.cr",
+      "telefono": "+506 2222-3333",
+      "servicios": [
+        {
+          "idContrato": "C-019",
+          "idServicio": 114,
+          "nombre": "Internet Dedicado 10Gbps",
+          "precioMensual": 250000,
+          "estado": "Activo",
+          "fechaInicio": "2024-01-01"
+        },
+        {
+          "idContrato": "C-020",
+          "idServicio": 115,
+          "nombre": "Central Telefónica Virtual",
+          "precioMensual": 45000,
+          "estado": "Activo",
+          "fechaInicio": "2024-01-01"
+        },
+        {
+          "idContrato": "C-021",
+          "idServicio": 116,
+          "nombre": "Backup en la Nube 10TB",
+          "precioMensual": 15000,
+          "estado": "Activo",
+          "fechaInicio": "2024-02-15"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "identificacion": "1-2468-1357",
+      "nombre": "Alejandra Castro",
+      "correo": "alejandra.castro@example.com",
+      "telefono": "+506 8111-2468",
+      "servicios": [
+        {
+          "idContrato": "C-022",
+          "idServicio": 117,
+          "nombre": "Internet Móvil Ilimitado",
+          "precioMensual": 20000,
+          "estado": "Activo",
+          "fechaInicio": "2024-06-15"
+        },
+        {
+          "idContrato": "C-023",
+          "idServicio": 118,
+          "nombre": "Equipo Router Premium",
+          "precioMensual": 3000,
+          "estado": "Activo",
+          "fechaInicio": "2024-06-15"
+        }
+      ]
+    }
+  ]
+}

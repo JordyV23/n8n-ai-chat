@@ -13,8 +13,8 @@ export async function handler(event, context) {
   }
 
   if (clienteEncontrado) {
-    return JSON.stringify(clienteEncontrado);
+    return { statusCode: 200, body: clienteEncontrado };
   } else {
-    return JSON.stringify({ mensaje: "Contrato no encontrado" });
+    return { statusCode: 404, body: { mensaje: "Contrato no encontrado" } };
   }
 }

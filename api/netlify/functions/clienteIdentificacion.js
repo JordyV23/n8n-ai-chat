@@ -7,9 +7,8 @@ export async function handler(event, context) {
   );
 
   if (cliente) {
-    return JSON.stringify(cliente);
+    return { statusCode: 200, body: cliente };
   } else {
-    return;
-    JSON.stringify({ mensaje: "Cliente no encontrado" });
+    return { statusCode: 404, body: { mensaje: "Cliente no encontrado" } };
   }
 }

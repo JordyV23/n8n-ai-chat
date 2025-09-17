@@ -1,8 +1,5 @@
 import data from "../../clientes.json";
 
 export async function handler(event, context) {
-  return {
-    statusCode: 200,
-    body: JSON.stringify(data.clientes)
-  };
+  return JSON.stringify(data.clientes);
 }

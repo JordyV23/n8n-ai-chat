@@ -5,7 +5,7 @@ export async function handler(event, context) {
   let clienteEncontrado = null;
 
   for (const cliente of data.clientes) {
-    const servicio = cliente.servicios.find(s => s.idContrato === idContrato);
+    const servicio = cliente.servicios.find((s) => s.idContrato === idContrato);
     if (servicio) {
       clienteEncontrado = { ...cliente, servicio };
       break;
@@ -13,8 +13,8 @@ export async function handler(event, context) {
   }
 
   if (clienteEncontrado) {
-    return { statusCode: 200, body: JSON.stringify(clienteEncontrado) };
+    return JSON.stringify(clienteEncontrado);
   } else {
-    return { statusCode: 404, body: JSON.stringify({ mensaje: "Contrato no encontrado" }) };
+    return JSON.stringify({ mensaje: "Contrato no encontrado" });
   }
 }

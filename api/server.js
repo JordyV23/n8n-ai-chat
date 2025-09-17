@@ -8,6 +8,16 @@ const PORT = 3000;
 const rawData = fs.readFileSync("clientes.json");
 const data = JSON.parse(rawData);
 
+// Obtener status
+app.get("/", (req, res) => {
+  res.json({
+    status: "ok",
+    message: "La API está corriendo",
+    uptime: Math.floor(process.uptime()), // tiempo en segundos que el servidor lleva activo
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Obtener todos los clientes
 app.get("/clientes", (req, res) => {
   res.json(data.clientes);
